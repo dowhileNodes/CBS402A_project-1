@@ -1,3 +1,19 @@
+## Mandatory Features
+1. Strong Password (Done)
+2. Email Verification (Dons)
+3. Session Restrict (Done)
+
+### Roulette Mandatory Features
+1. Access Control
+2. Log File (Ongoing)
+3. Login Attempts Restriction (Ongoing)
+
+## Optional Features
+1. IP Lock Restriction (Done)
+2. Google Captcha (Ongoing)
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -39,15 +55,3 @@ In order to ensure that the Laravel community is welcoming to all, please review
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Mandatory Features
-1. Strong Password (Done)
-2. Email Verification (Dons)
-3. Session Restrict (Done)
-### Roulette Mandatory Features
-1. Access Control
-2. Log File (Ongoing)
-3. Login Attempts Restriction (Ongoing)
-## Optional Features
-1. IP Lock Restriction (Done)
-2. Google Captcha (Ongoing)
