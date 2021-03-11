@@ -1,0 +1,35 @@
+1. Require Strong Password (Done)
+a. Pumunta sa app/Actions/Fortify
+b. I-edit si PasswordValidationRules.php
+c. Palitan ung requirements ng passwordRules()
+-mag-require ng atleast isang Uppercase
+-mag-require ng aleast isang number
+-mag-require ng atleast isang special character
+
+2. Email Validation (Done)
+a. Pumunta sa config
+b. I-edit si fortify.php
+c. i-uncomment si EmailVerification feature
+d. Pumunta sa app/Models
+e. I-edit si User.php
+f. si user class ay lagyan ng implementation ng MustVerifyEmail
+g. Iset ang environment variables para sa Mail
+
+3. Session Restrict (Done)
+a. by default natong nagana kay laravel
+
+4. Optional - Captcha
+1. Pumunta kay https://www.google.com/recaptcha/admin/create
+2. Icopy ung site key at ung secret key
+
+Site Key:
+6Ld1fXoaAAAAALFF21ERXUHhjsZ4oZUV3AF5RXkt
+
+Secret Key:
+6Ld1fXoaAAAAADO33OhYyLd0E5-_thoe6EECUHjv
+
+3. Mag-install ng laravel package na maghahandle ng recaptcha
+composer require biscolab/laravel-recaptcha
+4. Ipublish ung package
+ php artisan vendor:publish --provider="Biscolab\ReCaptcha\ReCaptchaServiceProvider"
+5. Iset si site key at secret key kay env.
